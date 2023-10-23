@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Victor+Mono:wght@100&display=swap');
+
+body {
+    margin: 0;
+}
+
+* {
+    color: #ffffff;
+}
+form input{
+    color: black;
+}
+form textarea{
+    color: black;
+}
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 80%;
+    }
+}
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-3"] {
+        width: 50%;
+        display: flex;
+        justify-content: left;
+    }
+    [class*="col-9"] {
+        width: 50%;
+        display: inline;
+        margin: auto;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+    
+}
+
+.shadow {
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+   
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: #2b2b2b;
+    }
+}
+
+nav li a {
+    color: rgb(255, 255, 255);
+}
+
+nav li:hover {
+    background-color:  #3e3d3d;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding: 16px 0;
+}
+.px-3 {
+    padding: 0 16px;
+}
+
+.bg-azul-o {
+    background-color: #72D6ED;
+}
+.bg-grey-o {
+    background-color: #ffffff;
+}
+.bg-azul-c {
+    background-color: rgb(240, 249, 252);
+}
+.text-white {
+    color: white;
+}
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+header {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 30px;
+}
+
+#btnmenu:hover {
+    background-color:  #3e3d3d;
+    cursor: pointer;
+}
+#btnmenu {
+    font-size: 40px;
+    padding: 10px;
+    
+}
+
+#btnmenu {
+    font-size: 40px;
+   float: right;
+   overflow: hidden;
+   padding: 10px;
+ 
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+        padding: 10px;
+    }
+    #menu{
+        display: none;
+    }
+    #logo{
+        display: inline;
+        float: left;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+    #menu{
+        display: none;
+    }
+    #btnmenu {
+        display: inline;
+        position:absolute;
+        margin-left: 85%;
+    }
+   
+}
+/* css de las prácticas */
+#home img {
+    width: 50%;
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
+.bg-black{
+    background-color: #131313;
+}
+.bg-grey-o{
+    background-color: #2b2b2b;
+}
+.text-grey{
+    color: #86868B;
+}
+.text-blue{
+    color: #c8d7f2;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+    overflow: hidden;
+}
+.pxy-3{
+    padding: 10px 10px;
+}
+.margin-left{
+    margin-left: 10px;
+}
+.font-size-small{
+    font-size: 40px;
+}
+
+#parrafos{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 30px;
+    line-height: 1.3;
+}
+#parrafos p{
+    padding: 10px 0;
+}
+#parrafos h1,h2,h3,h4,h5,h6{
+    padding: 10px 0;
+}
+.font-family-monospace{
+    font-family:monospace
+}
+.text-blue-o{
+    color: #72D6ED;
+}
+.bg-blue-o{
+background-color: rgb(10, 10, 128);
+}
+#enlaces{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 30px;
+    line-height: 1.3;
+}
+#enlaces a{
+    color: #A970FF;
+    font-size: 20px;
+    margin-left: 40px;
+}
+#listas{
+    font-family: 'Montserrat', sans-serif;  
+}
+#tablas{
+    font-family: 'Montserrat', sans-serif;  
+}
+#formularios{
+    font-family: 'Montserrat', sans-serif;  
+}
+#listaoc ol {
+    list-style-type: upper-alpha;
+}
+#listaoc ol ol {
+    list-style-type: upper-roman;
+}
+#listaotc ol {
+    list-style-type: lower-alpha;
+}
+#listaotc ol ol {
+    list-style-type: disc;
+}
+#listaotc ol ol ol {
+    list-style-type: lower-greek;
+}
+#listadtc ul ul {
+    list-style-image: url(../img/flecha.png)
+}
+#listadtc ul ul ul{
+    list-style-image: none;
+    list-style-type: disc;
+}   
+dt {
+    color: white;
+    font-size: 20px;
+    display: inline;
+    text-decoration: underline;
+}
+dd {
+    padding: 15px 0;
+    font-size: 12px;
+}
+table.tcenter {
+    width: 60%;
+    margin: 0 auto;
+}
+table.tcenter th{
+    background-color: rgb(2, 2, 63);
+    color: white;
+    font-size: 22px;
+}
+table.tcenter td{
+    padding: 6px;
+    font-size: 18px;
+    text-align: center;
+}
+table.tstriped tr:nth-child(odd){
+    background-color: #A970FF;  
+}
+table.tstriped tr:nth-child(even){
+    background-color: rgb(72, 76, 82);  
+}
+table.tborder, table.tborder td {
+    border: solid 1px gray;
+    text-align: center
+}
+
+table.horario {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+table.horario td {
+    color: rgb(0, 0, 0);
+}
+table.horario th {
+    background-color: #f0f0f0;
+    color: #008080;
+}
+table.horario th.grupo {
+    font-size: 26px;
+    font-style: italic;
+}
+.fol {
+    background-color: #f0f0c8;
+}
+.ende {
+    background-color: #b4b36e;
+}
+.lm {
+    background-color: #f7cac9;
+}
+.prog {
+    background-color: #b37b7a;
+}
+.sisi {
+    background-color: #a5da9c;
+}
+.ing {
+    background-color: #77b3eb;
+}
+.bd {
+    background-color: #d2d2fb;
+}
+.fol {
+    background-color: #8081bb;
+}
+form.form-login {
+    width: 50%;
+    float: left;
+    padding: 0 40px;
+    color: white;
+}
+form.form-registro {
+    width: 50%;
+    float: right;
+    padding: 0 40px;
+}
+form.form-login fieldset{
+    width: 60%;
+}
+form.form-html5 {
+    width: 40%;
+    margin: 0 auto;
+    color: rgb(9, 9, 9);
+}
+
+form.form-html5 fieldset {
+    padding: 0 30px;
+    background-color: #e2fafa;
+}
+form.form-html5 legend {
+    background-color: rgb(10, 3, 70);
+    color: rgb(254, 254, 254);
+    padding: 8px;
+    font-size: 20px;
+}
+form.form-html5 label {
+    background-color: rgb(102, 72, 207);
+    color: white;
+}
+.cb {
+    clear: both;
+}
+.btn {
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.btn-red {
+    background-color: rgb(78, 6, 6);
+    color: white;
+}
+.btn-blue {
+    background-color: rgb(22, 3, 68);
+    color: white;
+}
+.w-100 {
+    width: 100%;
+}
+.text-black{
+    color: black;
+    text-decoration: underline;
+    background-color: black;
+}
+select option{
+    color: #131313;
+}
+#Inputhtml5{
+    color: #131313;
+    
+}
