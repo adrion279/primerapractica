@@ -98,12 +98,12 @@ form textarea{
 /* For mobile: */
 @media only screen and (max-width: 1000px) {
     [class*="col-3"] {
-        width: 50%;
+        width: 25%;
         display: flex;
         justify-content: left;
     }
     [class*="col-9"] {
-        width: 50%;
+        width: 75%;
         display: inline;
         margin: auto;
     }
@@ -117,7 +117,6 @@ form textarea{
 
 .shadow {
     box-shadow: 0 0 20px rgb(0, 0, 0);
-   
 }
 
 nav ul{
